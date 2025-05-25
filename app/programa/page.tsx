@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { BubbleWebhookButton } from "@/components/bubbleWebhookButton"
+import { BubbleWebhookButton } from "@/app/telegram/BubbleWebhookButton"
 
 export default function ProgramaPage() {
   return (

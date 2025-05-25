@@ -1,7 +1,7 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
-import { BubbleWebhookButton } from "@/components/ui/bubble-webhook-button"
+import { BubbleWebhookButton } from "@/app/telegram/BubbleWebhookButton"
 
 export default function PonentesPage() {
   return (
