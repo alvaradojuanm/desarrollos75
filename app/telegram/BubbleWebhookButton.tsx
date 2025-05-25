@@ -17,7 +17,7 @@ export const BubbleWebhookButton = () => {
       className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg z-50"
       title="Para Mayor Información"
     >
-      <span style={{ fontSize: '2.5rem' }}>💬</span>
+      <span style={{ fontSize: '1.0rem' }}>💬</span>
     </button>
   )
 }
