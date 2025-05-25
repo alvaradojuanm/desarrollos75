@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
+import { BubbleWebhookButton } from "@/components/ui/bubble-webhook-button"
 
 export default function PonentesPage() {
   return (
@@ -182,6 +183,8 @@ export default function PonentesPage() {
             *La lista de ponentes se actualizará a medida que se confirmen más participaciones.
           </p>
         </div>
+
+        <BubbleWebhookButton />
       </div>
     </div>
   )
